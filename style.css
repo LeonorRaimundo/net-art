@@ -1,0 +1,198 @@
+
+body {
+  background-color: #fefefe;
+  height: 100vh;
+  margin:0px;
+ cursor: url(imgs/ccrosshair_pressmerking.cur), auto;
+}
+
+
+
+
+
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    font-family: arial, bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    }
+
+.navbar{
+    position: sticky;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color:  white;  /*cor da fonte quando não selecionada */
+    display: inline-block; /*não sei explicar */
+    text-decoration: none; /*os links não têm sublinhado */
+    font-size: 70px; /* tamanho da fonte */
+
+}
+
+
+.topnav a:hover {
+  border-bottom: 7px solid;
+  background: none;
+  border-bottom-color: white;
+}
+
+header {
+  z-index: 20;
+  position:  fixed;
+  width: 100%;
+}
+
+
+/*-----------GRELHA-----------*/
+
+.container {
+  z-index: 1;
+  display: static;
+  align-items: top;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  translate:(-50%, -50%);
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+
+.img {
+
+  /*height: 100%;*/
+  filter: saturate(150%);
+   
+}
+
+
+h2{
+    font-family: helvetica;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.img-1{
+  background: url('imgs/fundo.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.img-1:hover{
+  background: url('https://media2.giphy.com/media/6EVTerUDsWMskdfTY4/giphy.gif') no-repeat center center;
+  background-size: cover;
+  z-index: 30;
+
+}
+
+
+
+.img-2{
+  background: url('imgs/fundo.jpg') no-repeat center center;
+  background-size: cover; 
+}
+
+.img-2:hover{
+  background: url('https://media4.giphy.com/media/ajsb3WFkWKxhUGH8de/giphy.gif') no-repeat center center;
+  background-size: cover; 
+}
+
+
+
+.img-3{
+  background: url('imgs/fundo.jpg') no-repeat center center;
+  background-size: cover; 
+}
+
+.img-3:hover{
+  background: url('https://media2.giphy.com/media/BKSL9BX10OMIOwliwz/giphy.gif') no-repeat center center;
+  background-size: cover; 
+}
+
+
+
+
+.img-4 {
+  background: url('imgs/fundo.jpg') no-repeat center center;
+  background-size: cover; 
+}
+
+.img-4:hover{
+  background: url('https://media4.giphy.com/media/KeAzkTAn7WhXSFOOCF/giphy.gif') no-repeat center center;
+  background-size: cover; 
+}
+
+
+
+
+.img-5 {
+  background: url('imgs/fundo.jpg') no-repeat center center;
+  background-size: cover; 
+}
+
+.img-5:hover{
+  background: url('https://media3.giphy.com/media/tUcp5Ou78wGs1com5n/giphy.gif') no-repeat center center;
+  background-size: cover; 
+}
+
+
+
+.img-6 {
+  background: url('imgs/fundo.jpg') no-repeat center center;
+  background-size: cover;
+
+}
+
+.img-6:hover{
+  background: url('https://media4.giphy.com/media/tQRWgP7Y0KJOyQpi1T/giphy.gif') no-repeat center center;
+  background-size: cover;
+}
+
+
+
+
+
+
+@media screen and (min-width: 200px) {
+  .row{
+    height: 50%; 
+  }
+  
+  .img{
+    height: 100%;  
+  }
+  
+  .img-1{
+    width: 33.4%
+  }
+
+ .img-2{
+    width: 33.3%
+  }
+
+.img-3{
+    width: 33.3%
+  }
+
+.img-4{
+    width: 33.4%
+  }
+
+.img-5{
+    width: 33.3%
+  }
+
+.img-6{
+    width: 33.3%
+  }
+}
