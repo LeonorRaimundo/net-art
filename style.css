@@ -3,7 +3,7 @@ body {
   background-color: #fefefe;
   height: 100vh;
   margin:0px;
- cursor: url(imgs/ccrosshair_pressmerking.cur), auto;
+ cursor: url(ccrosshair_pressmerking.cur), auto;
 }
 
 
@@ -84,7 +84,7 @@ h2{
 }
 
 .img-1{
-  background: url('imgs/fundo.jpg') no-repeat center center;
+  background: url('fundo.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -98,7 +98,7 @@ h2{
 
 
 .img-2{
-  background: url('imgs/fundo.jpg') no-repeat center center;
+  background: url('fundo.jpg') no-repeat center center;
   background-size: cover; 
 }
 
@@ -110,7 +110,7 @@ h2{
 
 
 .img-3{
-  background: url('imgs/fundo.jpg') no-repeat center center;
+  background: url('fundo.jpg') no-repeat center center;
   background-size: cover; 
 }
 
@@ -123,7 +123,7 @@ h2{
 
 
 .img-4 {
-  background: url('imgs/fundo.jpg') no-repeat center center;
+  background: url('fundo.jpg') no-repeat center center;
   background-size: cover; 
 }
 
@@ -136,7 +136,7 @@ h2{
 
 
 .img-5 {
-  background: url('imgs/fundo.jpg') no-repeat center center;
+  background: url('fundo.jpg') no-repeat center center;
   background-size: cover; 
 }
 
@@ -148,7 +148,7 @@ h2{
 
 
 .img-6 {
-  background: url('imgs/fundo.jpg') no-repeat center center;
+  background: url('fundo.jpg') no-repeat center center;
   background-size: cover;
 
 }
